@@ -1,0 +1,187 @@
+#new1{
+    background-image: url("techreclogo.jpg");
+}
+
+a{
+font-family: 'Ubuntu', sans-serif
+}
+
+h2{
+    color:white;
+    font-family: 'Ubuntu', sans-serif
+
+}
+
+p{
+    color:rgb(107, 107, 107);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h6{
+    color:rgb(131, 131, 131);
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+
+
+}
+
+#tect{
+    font-family: "Inconsolata", sans sans-serif;
+}
+
+#pc {
+    display: block;
+     margin-left: auto;
+    margin-right: 2%;
+    margin-top: 1%;
+    width: 50%;
+}
+
+#phone {
+    display: block;
+     margin-left: auto;
+    margin-right: 2%;
+    margin-top: 1%;
+    width: 50%;
+}
+
+#img{
+    width: 80%;
+}
+
+h2{
+    color:white;
+    font-family: 'Ubuntu', sans-serif
+
+}
+
+h4{
+    color:white;
+    font-family: 'Ubuntu', sans-serif
+
+}
+
+h5{
+    color:rgb(180, 179, 179);
+    font-family: 'Ubuntu', sans-serif
+
+}
+
+h6{
+    color:rgb(175, 174, 174);
+    font-family: 'Ubuntu', sans-serif
+
+}
+
+#image {
+    display: block;
+     margin-left: 2%;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+#border{
+    border-style: none;
+     border-width: 2px;
+     border-color: white;
+}
+
+body{
+    background-color: rgb(23, 21, 21);
+}
+
+.imgrow {
+    float: center;
+    width:  110px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.imgrow22 {
+    float: center;
+    width:  auto;
+    height: 150px;
+    object-fit: cover;
+}
+
+.imgrow2 {
+    float: left;
+    width:  auto;
+    height: 150px;
+    object-fit: cover;
+}
+.imgrow3 {
+    float: center;
+    width:  auto;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+
+.back{
+  background-color: rgb(107, 105, 100);
+}
+
+.outset {
+  border-style: outset;
+  border-color: rgb(255, 255, 255);
+}
+
+.darkblu{
+  background-color: rgb(30, 28, 54);
+}
+
+.black{
+  background-color: rgb(0, 0, 0);
+}
+
+
+.border{
+    border: 2px;
+    border-color:  rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+@keyframes slidefwd {
+  0% {
+    transform: scale(1.0);
+  }
+
+  100% {
+    transform: scale(1.02);
+  }
+}
+
+@keyframes slidebck {
+  0% {
+    transform: scale(1.02);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+.slidefwd{
+    animation: slidebck 0.3s cubic-bezier(0.32, 0, 0.67, 0) 1 normal forwards;
+}
+
+.slidefwd:hover{
+  animation: slidefwd 0.3s cubic-bezier(0.32, 0, 0.67, 0) 1 normal forwards;
+}
+
+p{
+  justify-content: center;
+  color: white;
+}
+
+.font{
+font-family: bdr-mono,sans-serif;
+font-style: normal;
+}
+
+.font2{
+font-family: "Ubuntu",sans-serif;
+font-style: normal;
+}
